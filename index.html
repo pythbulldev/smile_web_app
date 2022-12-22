@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>gridbot demo</title>
+        <style>
+            body { background: black; color: green; font-family: Arial, Helvetica, sans-serif;}
+            .panel { width: 300; height: 200; padding: 20; border: solid lightgreen 1px;}
+            .chartlpannel {padding: 20;}
+            #left {width: 700; height: 500;}
+            #right {float: right;}
+            #container {width: 1200px;}
+        </style>
+        <script src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
+    </head>
+    <body>
+        <div id ="container">
+            <div id="right">
+                <h1>trades</h1>
+                <div id="trades" class="panel"></div>
+            </div>
+            <div id="lift">
+                <h1>chart</h1>
+                <div id="chart" class="chartlpannel"></div>
+            </div>
+        </div>
+        <script src="chartruner.js"></script>
+    </body>
+</html>
